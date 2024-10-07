@@ -1,0 +1,98 @@
+.logo {
+    width: 100px;
+    margin-left: 0.62em;
+}
+
+.container1 {
+    display: flex;
+    padding: 0.93em;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 3.12rem;
+    font-family: var(--fonte--principal);
+    font-weight: 900;
+    margin-left: 1.25em;
+    color: var(--fonte--azul);
+}
+
+
+header {
+    /*background-color: #333;Cor de fundo da navbar */
+    padding: 0.62em 0;
+    /* Espaçamento interno */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    display: flex;
+    /* Exibe os itens em linha */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Centraliza os itens */
+    padding: 0;
+    /* Remove o padding da lista */
+    margin: 0;
+    /* Remove a margem da lista */
+}
+
+nav ul li {
+    margin: 0 0.93em;
+    /* Espaçamento entre os itens */
+    margin-bottom: 3em;
+}
+
+nav ul li a {
+    font-family: var(--fonte--principal);
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: var(--fonte--rosa);
+    /* Cor do texto */
+    font-weight: bold;
+    /* Texto em negrito */
+    transition: color 0.3s;
+    /* Transição suave na mudança de cor */
+    padding: 10px;
+    border: 1px solid var(--fonte--azul);
+    border-radius: 3.12em;
+}
+
+nav ul li a:hover {
+    color: var(--fonte--azul);
+    /* Cor do texto ao passar o mouse */
+}
+
+    @media (max-width: 1024px) {
+        .logo {
+          width: 80px; /* Reduz o tamanho da logo */
+          margin-left: 0.5em;
+        }
+      
+        .container1 {
+          flex-direction: column; /* Altera o layout para coluna */
+          padding: 0.5em; /* Reduz o padding */
+          align-items: center; /* Centraliza os itens verticalmente */
+        }
+      
+        .titulo {
+          font-size: 2rem; /* Reduz o tamanho da fonte */
+          margin-left: 0; /* Remove o espaçamento à esquerda */
+          text-align: center; /* Centraliza o título */
+        }
+      
+        nav ul {
+            margin-top:2em;
+        }
+      
+        nav ul li {
+          margin-bottom: 1.5em; /* Diminui o espaçamento entre os itens */
+        }
+      
+        nav ul li a {
+          padding: 8px;
+          font-size: 0.9rem; /* Ajusta o tamanho do texto */
+        }
+      }
+        

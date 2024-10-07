@@ -1,0 +1,19 @@
+.cursos {
+    font-family: var(--fonte--principal);
+    text-align: center; 
+    align-items: center;
+}
+
+
+.cursos__titulo {
+    text-align: center;
+    font-size: 3.12em;    
+    color: var( --fonte--rosa);
+    margin-top: 3.75em;
+    font-weight: bold;
+}
+
+.cursos__logo {
+    margin-top: 3.75em;
+    width:110px;
+}

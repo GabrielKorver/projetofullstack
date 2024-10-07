@@ -1,0 +1,22 @@
+.trilha1 {
+    font-family: var(--fonte--principal);
+    font-size: 3.12rem;
+    font-weight: 500;
+    margin-top: 3.75em;
+    text-align: center;
+    color: var(--fonte--rosa);
+}
+
+.cursos__trilha {
+
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically (if height is defined) */
+    gap: 10px;
+    /* Optional: adds space between images */
+    padding: 1.25em;
+    /* Optional: adds padding around the section */
+}

@@ -1,0 +1,49 @@
+.boxprojetos {
+    font-family: var(--fonte--principal);
+}
+
+.projetos__titulo {
+    text-align: center;
+    font-size: 3.12rem;    
+    color: var( --fonte--rosa);
+    margin-top:3.75em;
+    font-weight: bold;
+}
+
+
+.container__projetos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top:6.25em;
+    font-weight:500 ;
+    font-size: 1.25em;
+    color:white;
+}
+
+
+.img1 {
+    width: 350px;
+    height: 300px;
+}
+
+
+@media screen and (max-width:1080px) {
+
+    .container__projetos{
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .texto__projeto{
+        margin-top: 2em;
+        font-size: 1.3rem;
+    }
+
+    .img1 {
+        width: 60%;
+        height: 60%;
+    }
+}
+

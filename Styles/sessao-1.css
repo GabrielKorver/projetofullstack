@@ -1,0 +1,13 @@
+.box1 {
+    font-family: var(--fonte--principal);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1__titulo {
+    font-size: 3.12rem;
+    margin: 2.5em;
+    color: var(--fonte--rosa);
+    font-weight: bolder;
+    text-decoration:underline;
+}

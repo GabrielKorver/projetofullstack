@@ -1,0 +1,71 @@
+@import url(./Styles/navbar.css);
+@import url(./Styles/banner.css);
+@import url(./Styles/card.css);
+@import url(./Styles/sessao-1.css);
+@import url(./Styles/cursos.css);
+@import url(./Styles/projetos.css);
+@import url(./Styles/grid.css);
+@import url(./Styles/trilha.css);
+@import url(./Styles/rodape.css);
+
+
+:root {
+    --cor-de-fundo:#000;
+    --fonte--azul:#4C6DFB;
+    --fonte--rosa:#8847F2;
+    --fonte--principal:"Poppins", sans-serif;
+    
+}
+
+/*  para fonte = rem
+    para margin/padding = em
+    para imagem = %
+*/
+
+body {
+    background-color:var(--cor-de-fundo);
+}
+
+hr {
+
+    border: none; /* Remove a borda padrão */
+    height: 4px; /* Altura da linha */
+    background: linear-gradient(to right, #4C6DFB, #8847F2); /* Gradiente */
+    margin: 3.75em  5em; /* Margens acima e abaixo */
+}
+
+.video {
+    display: none;
+}
+
+p {
+    color:var(--fonte--rosa);
+}
+
+h1:hover {
+    color:white;
+    cursor: pointer;
+}
+
+
+h2:hover {
+    color: white;
+    cursor:pointer;
+}
+
+a:hover {
+    background-color:white;
+}
+
+p:hover {
+    color:white;
+}
+
+@media screen and (max-width:560px) {
+ 
+    .video {
+        display:inline-block;
+    }
+      
+    
+    }

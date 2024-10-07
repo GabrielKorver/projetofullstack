@@ -1,0 +1,37 @@
+.card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: var(--fonte--principal);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.princical {
+    color: var(--fonte--rosa);
+    font-size: 3.12rem;
+}
+
+.princical__paragafo {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.sessao__imagem {
+    width: 80%;
+}
+
+
+@media screen and (max-width:1024px) {
+ 
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+      
+    .sessao__imagem {
+        width: 70vw;
+    }
+    
+    }
